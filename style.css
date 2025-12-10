@@ -1,0 +1,85 @@
+      body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-family: "Lobster", sans-serif;
+            font-size: 60px;
+        }
+        body {
+            background-image: url(https://i.pinimg.com/736x/35/e0/92/35e09235596e7b8d925009d43948afd0.jpg);
+            background-size: cover;        
+            background-repeat: no-repeat;  
+            background-attachment: fixed;  
+            background-position: center;  
+        }
+        header img { 
+            width: 12opx; 
+            cursor: pointer; 
+        }
+        header:not nav {
+            font-family: 'Lobster', cursive;
+        }
+        nav { 
+            background: #005461;
+            border: 1px solid #061930;
+            padding: 10px; 
+            text-align: center; 
+        }
+        nav a { 
+            color: rgb(180, 182, 204); 
+            margin: 0 15px; 
+            text-decoration: none; 
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 15%;
+            height: 100%;
+            background: #6f8fa3;
+            padding: 10px;
+        }
+
+        .sidebar-right {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 15%;
+            height: 100%;
+            background: #6f8fa3;
+            padding: 10px;
+        }
+
+        .content {
+            width: 70%;           
+            margin-left: 15%;     
+            margin-right: 15%;   
+            padding: 20px;
+            text-align: center;
+            max-width: fit-content;
+        }
+
+        
+
+        .logo img  {
+            padding-left: 230px;
+            width: 100px;
+            text-align: center;
+            height: auto;
+            position: relative;
+        }
+
+        .content img {
+            display: block;
+            margin: 20px auto;
+        }
+        .content p {
+            color: #160a2c
+        }
+        .ingredients {
+            width: 90%;         
+            margin: 0 auto;     
+            text-align: left;    
+            line-height: 1.8; 
+            font-size: 18px; 
+        }
